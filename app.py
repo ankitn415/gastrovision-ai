@@ -10,6 +10,13 @@ from pytorch_grad_cam import GradCAM
 from pytorch_grad_cam.utils.image import show_cam_on_image
 import os
 import shutil
+# --- Streamlit UI ---
+st.set_page_config(
+    layout="wide",
+    page_title="GastroVision AI",
+    page_icon="🩺"
+)
+
 
 # --- Configuration ---
 # Ensure the model path is correct relative to the app.py when deployed
@@ -65,12 +72,6 @@ def get_prediction_and_gradcam(image_pil):
 
     return predicted_label_name, predicted_probability, img_np, visualization
 
-# --- Streamlit UI ---
-st.set_page_config(
-    layout="wide",
-    page_title="GastroVision AI",
-    page_icon="🩺"
-)
 
 # --- Sidebar ---
 st.sidebar.title("🩺 GastroVision AI")
