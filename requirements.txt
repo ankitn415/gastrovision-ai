@@ -1,11 +1,9 @@
-
-streamlit
-torch
-torchvision
-timm
-numpy
-Pillow
-matplotlib
-opencv-python
-pytorch-grad-cam==1.5.5 # Specify version to match installation
-ttach==0.0.3 # Specify version to match installation
+streamlit==1.45.1
+torch==2.2.2
+torchvision==0.17.2
+timm==1.0.15
+numpy==1.26.4
+matplotlib==3.8.4
+Pillow==10.3.0
+opencv-python-headless==4.9.0.80
+grad-cam==1.5.5
