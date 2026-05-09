@@ -1,0 +1,11 @@
+
+streamlit
+torch
+torchvision
+timm
+numpy
+Pillow
+matplotlib
+opencv-python
+pytorch-grad-cam==1.5.5 # Specify version to match installation
+ttach==0.0.3 # Specify version to match installation
